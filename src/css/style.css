@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800');
+
+body {
+    font-family: 'Oxanium', cursive;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body::before {
+    content: '';
+    background-image: url(../images/bg-desktop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .2;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.char-select {
+    display: flex;
+    align-items: space-evenly;
+    gap: 30px;
+    min-height: calc(100vh - 130px);
+    justify-content: center;
+}
+
+.char-select .char-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.char-select .characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.char-select .characters .title {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #47F4FF;
+    width: 100%;
+    text-align: center;
+}
+
+.char-select .char img {
+    width: 115px;
+    height: auto;
+}
+
+.char-select .char.selected {
+    box-shadow: 0px 0px 24px 5px #0271F7;
+}
+
+.selected-char {
+    text-align: center;
+    max-height: 530px;
+}
+
+.selected-char .char-photo {
+    width: 420px;
+    height: 420px;
+}
+
+.selected-char .char-name {
+    border-bottom: 2px solid #47F4FF;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.selected-char .char-description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    width: 420px;
+}

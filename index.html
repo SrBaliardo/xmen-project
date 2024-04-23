@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+    <title>X-Men Project</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./src/images/x-men.png" alt="logo_x-men">
+    </header>
+
+    <main class="char-select">
+        <section class="characters">
+            <h1 class="title">Selecione um personagem</h1>
+            <ul class="char-list">
+                <li class="char" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.">
+                    <img src="./src/images/card-ciclope.png" alt="card_ciclope">
+                </li>
+                <li class="char" id="jean-grey" data-name="Jean Grey" data-description="Os poderes de Jean eram restritos a simples telecinese, e até mesmo levantar seu próprio peso rapidamente cansava ela.">
+                    <img src="./src/images/card-jean-grey.png" alt="card_jean-grey">
+                </li>
+                <li class="char" id="lince-negra" data-name="Lince Negra" data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar.">
+                    <img src="./src/images/card-lince-negra.png" alt="card_lince-negra">
+                </li>
+                <li class="char" id="tempestade" data-name="Tempestade" data-description="Tem o poder de controlar as forças da natureza, faz o clima variar entre seus extremos, muito poderosa ela pode produzir raios, chuvas, gelos, ventos, neblina, entre outros efeitos.">
+                    <img src="./src/images/card-tempestade.png" alt="card_tempestade">
+                </li>
+                <li class="char" id="wolverine" data-name="Wolverine" data-description="Wolverine é um dos mutantes mais importante e reconhecido da história dos X-Men.">
+                    <img src="./src/images/card-wolverine.png" alt="card_wolverine">
+                </li>
+                <li class="char" id="noturno" data-name="Noturno" data-description="Ele é um mutante que nasceu com cauda, orelhas pontudas, mãos com três dedos e pés com dois dedos.">
+                    <img src="./src/images/card-noturno.png" alt="card_noturno">
+                </li>
+                <li class="char" id="magneto" data-name="Magneto" data-description="Ele tem o poder de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos.">
+                    <img src="./src/images/card-magneto.png" alt="card_magneto">
+                </li>
+                <li class="char selected" id="vampira" data-name="Vampira" data-description="Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente.">
+                    <img src="./src/images/card-vampira.png" alt="card_vampira">
+                </li>
+            </ul>
+        </section>
+
+        <section class="selected-char">
+            <img class="char-photo" src="./src/images/vampira.png" alt="personagem_selecionado">
+
+            <div class="char-info">
+                <h2 class="char-name" id="char-name">Vampira</h2>
+                <p class="char-description" id="char-description">Ela tem o poder de absorver a vitalidade e memória das pessoas que toca ou no caso dos mutantes os poderes e a memória, mas só temporariamente.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
