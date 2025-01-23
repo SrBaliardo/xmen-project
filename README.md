@@ -2,6 +2,8 @@
 
 Projeto didático <b> Dev Em Dobro </b>.
 
+Página dos X-Men - ao passar o mouse sobre o cartão do personagem, os dados são alterados de acordo com a seleção (nome, descrição, imagem grande).
+
 Projeto realizado para prática, porém, de fácil adaptação para negócios.
 
 <br>
@@ -9,6 +11,8 @@ Projeto realizado para prática, porém, de fácil adaptação para negócios.
 # X-Men project for fans of the classics.
 
 <b> Dev Em Dobro </b> didactic project.
+
+X-Men page - by hovering over the character's card, the data is changed according to the selection (name, description, large image).
 
 Project designed for practice, but easily adapted for business.
 
